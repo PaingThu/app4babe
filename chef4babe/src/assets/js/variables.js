@@ -1,7 +1,8 @@
+import { reactive } from "vue"
 export const variables = {
     name: "Chef4Babe",
-
-    category_list: [
-        "curry", "salad","soup"
-    ]
+    
 }
+export const reactiveVars =  reactive({
+    page_title : ""
+})

@@ -22,4 +22,10 @@ const router = createRouter({
     routes
 })
 
+export const routerFuncs = {
+    gotoPage: (path="/") => {
+        router.push(path)
+    },
+}
+
 export default router
